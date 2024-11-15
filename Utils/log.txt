@@ -1,0 +1,10 @@
+
+2024-11-16 01:06:46.787 +02:00 [INF] Initializing the logger.
+2024-11-16 01:06:46.828 +02:00 [INF] UC-1: Test Login form with empty credentials
+2024-11-16 01:06:46.833 +02:00 [INF] Starting test for browser Chrome
+2024-11-16 01:06:50.765 +02:00 [INF] Opening the login page.
+2024-11-16 01:06:52.634 +02:00 [INF] Entering username and password.
+2024-11-16 01:06:53.586 +02:00 [INF] Clearing username and password.
+2024-11-16 01:06:54.105 +02:00 [INF] Clicking the login button.
+2024-11-16 01:06:54.451 +02:00 [INF] ErrorMessage: Epic sadface: Username is required
+2024-11-16 01:06:54.504 +02:00 [INF] Test completed successfully.
