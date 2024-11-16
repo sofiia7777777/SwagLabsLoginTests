@@ -8,3 +8,21 @@
 2024-11-16 01:06:54.105 +02:00 [INF] Clicking the login button.
 2024-11-16 01:06:54.451 +02:00 [INF] ErrorMessage: Epic sadface: Username is required
 2024-11-16 01:06:54.504 +02:00 [INF] Test completed successfully.
+2024-11-16 01:21:47.255 +02:00 [INF] Initializing the logger.
+2024-11-16 01:21:47.255 +02:00 [INF] Initializing the logger.
+2024-11-16 01:21:47.255 +02:00 [INF] Initializing the logger.
+2024-11-16 01:21:47.285 +02:00 [INF] Test Login form for locked_out_user
+2024-11-16 01:21:47.285 +02:00 [INF] UC-1: Test Login form with empty credentials
+2024-11-16 01:21:47.285 +02:00 [INF] UC-2: Test Login form with credentials by passing Username
+2024-11-16 01:21:47.288 +02:00 [INF] Starting test for browser Firefox
+2024-11-16 01:21:47.288 +02:00 [INF] Starting test for browser Firefox
+2024-11-16 01:21:47.288 +02:00 [INF] Starting test for browser Chrome
+2024-11-16 01:21:50.337 +02:00 [INF] Initializing the logger.
+2024-11-16 01:21:50.337 +02:00 [INF] UC-3 Test Login form with credentials by passing Username & Password
+2024-11-16 01:21:50.337 +02:00 [INF] Starting test for browser Firefox
+2024-11-16 01:21:59.034 +02:00 [INF] Opening the login page.
+2024-11-16 01:22:00.769 +02:00 [INF] Entering username and password.
+2024-11-16 01:22:04.254 +02:00 [INF] Clearing username and password.
+2024-11-16 01:22:07.378 +02:00 [INF] Clicking the login button.
+2024-11-16 01:22:11.647 +02:00 [INF] ErrorMessage: Epic sadface: Username is required
+2024-11-16 01:22:11.744 +02:00 [INF] Test completed successfully.
