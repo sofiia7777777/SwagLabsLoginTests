@@ -1,9 +1,12 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using Serilog;
 
-namespace SwagLabsLoginTests.Pages
+// test comment
+
+namespace Pages
 {
-    internal class LoginPage
+    public class LoginPage
     {
         private static string Url { get; } = "https://www.saucedemo.com/";
 
@@ -28,15 +31,14 @@ namespace SwagLabsLoginTests.Pages
             return waitForElement.Until(driver => driver.FindElement(locator));
         }
 
-        public void InputUsername(string username)
+        public void Login(string userName, string password)
         {
+            Log.Information("Entering username.");
             var usernameField = WaitForElement(By.Id("user-name"));
             usernameField.Click();
-            usernameField.SendKeys(username);
-        }
+            usernameField.SendKeys(userName);
 
-        public void InputPassword(string password)
-        {
+            Log.Information("Entering password.");
             var passwordField = WaitForElement(By.Id("password"));
             passwordField.Click();
             passwordField.SendKeys(password);
