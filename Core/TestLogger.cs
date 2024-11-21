@@ -1,15 +1,14 @@
 ﻿using Serilog;
-using Serilog.Events;
 
-namespace SwagLabsLoginTests.Utils
+namespace Core
 {
     public static class TestLogger
     {
         static TestLogger()
         {
-            Log.Logger = new LoggerConfiguration()
+                Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Information()
-                .WriteTo.File("C:\\Automation_Testing_C#\\SwagLabsLoginTests\\Utils\\log.txt", rollingInterval: RollingInterval.Infinite)
+                .WriteTo.File("C:\\ClonedRepoCsharp\\SwagLabsLoginTests\\Core\\log.txt", rollingInterval: RollingInterval.Infinite)
                 .CreateLogger();
         }
 
